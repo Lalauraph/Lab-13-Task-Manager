@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <title>Task manager</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>TASK MANAGER</h1>
+    </div>
+
+    <div class="contenedor-crear-tarea">
+      <form id="todo-form" method="post">
+        <input
+          type="text"
+          id="taskInput"
+          class="task__input"
+          required
+          placeholder="Escribe tu nueva tarea aquí..."
+        />
+        <button type="submit" id="taskButton" class="task__btn">Crear</button>
+      </form>
+    </div>
+
+    <section id="tasks">
+      <div id="todo" class="todo">
+       
+    
+      </div>
+      <div id="doing" class="doing">
+        
+     
+      </div>
+      <div id="done" class="done">
+        
+       
+      </div>
+    </section>
+  </body>
+  <footer>
+    <script type="module" src="./js/script.js"></script>
+  </footer>
+</html>
